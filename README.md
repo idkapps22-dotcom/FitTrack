@@ -1,28 +1,12 @@
-# FitNews
+# FitTrack V2
+React Native + Expo fitness app foundation.
 
-A dark-mode fitness tracker web app inspired by the provided fitness UI concept.
+Included: premium dark UI, local onboarding, profile details, weight in kg, height in cm, BMR calculation, calorie targets for lose/gain/build muscle, 200+ exercise library generated from gym movement patterns, exercise images, strength/core/cardio filters, custom exercises, workout logging with multiple sets/reps/kg, calories burned, food calorie and macro logging with food images, recovery/body activity, progress history, and local device saving.
 
-## Features
-- Welcome / onboarding screen
-- Exercise library with search
-- Custom workout plans and goals
-- Food and calorie tracker
-- BMR calculator
-- Daily calories burned
-- Recovery dashboard
-- Weekly muscle training tracker
-- Weight progress chart
-- Responsive mobile-first design
+## Run
+1. Upload this project to GitHub.
+2. Clone/download it into an Expo environment.
+3. Run `npm install` then `npx expo start`.
+4. Open on Android using Expo Go.
 
-## Run locally
-Just open `index.html` in a browser.
-
-## Run with GitHub Pages
-1. Create a new GitHub repository.
-2. Upload all files from this project.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`.
-6. Save. GitHub will provide your live website URL.
-
-No build tools or installation are required.
+For real cross-device login and cloud sync, connect Firebase Authentication + Firestore as the next backend upgrade. This starter currently saves locally on the device so it works without Firebase.
